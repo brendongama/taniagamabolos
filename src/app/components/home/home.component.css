@@ -1,0 +1,31 @@
+.sidenav-container {
+    height: 100%;
+  }
+  
+  .sidenav {
+    width: 200px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,129,205,1) 29%, rgba(0,212,255,1) 100%);
+
+  }
+  
+  .sidenav .mat-toolbar {
+    background: inherit;
+    color: #fff;
+  }
+
+  .link{
+    color: #fff;
+  }
+  
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .tituloHeader {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,129,205,1) 29%, rgba(0,212,255,1) 100%);
+    color: #fff;
+  }
+
