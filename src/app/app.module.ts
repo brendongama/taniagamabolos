@@ -13,13 +13,20 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { RedessociaisComponent } from './components/redessociais/redessociais.component';
+import {MatCardModule} from '@angular/material/card';
+import { TabelaPrecoDocesComponent } from './components/tabela-preco-doces/tabela-preco-doces.component';
+import { TabelaPrecoBolosComponent } from './components/tabela-preco-bolos/tabela-preco-bolos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [ 
     AppComponent,
     HomeComponent,
     TabelaprecoComponent,
-    RedessociaisComponent
+    RedessociaisComponent,
+    TabelaPrecoDocesComponent,
+    TabelaPrecoBolosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +37,8 @@ import { RedessociaisComponent } from './components/redessociais/redessociais.co
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

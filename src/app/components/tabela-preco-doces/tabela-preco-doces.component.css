@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed&family=Sarala&display=swap');
 
-  .items:hover {
-      opacity: 0.8;
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,129,205,1) 29%, rgba(0,212,255,1) 100%);
-      color: #FFF;
-  }
-
-  @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed&family=Sarala&display=swap');
-
 .card {
     margin: 20px;
     width: 95%;
@@ -21,16 +13,27 @@
 
 .itens {
     display: flex;
-    justify-content: space-around;
+    justify-content: stretch;
     flex-direction: row;
     align-items: center;    
 }
 
 .nomeitem {
-    font-family: 'Righteous', cursive;    
+    font-family: 'Righteous', cursive;
+    margin-right: 10px;
 }
 
 .preco {
     font-family: 'Righteous', cursive;
-    font-size: 30px;
-} 
+    font-size: 20px;
+    white-space: nowrap;
+    border-bottom: 0.4px solid black;
+}
+
+p {
+    border-bottom: 0.4px solid black;
+}
+
+mat-card-subtitle {
+    color: red;
+}

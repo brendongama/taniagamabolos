@@ -1,1 +1,17 @@
-<p>tabelapreco works!</p>
+
+    <mat-card class="card">
+        <mat-card-title>Selecione uma tabela abaixo :</mat-card-title> 
+        <div class="cardpreco">
+            <mat-card class="card items mat-elevation-z8" routerLink="tabelaPrecoDoces">
+                <mat-card-title>DOCES</mat-card-title>
+                <mat-card-subtitle class="items">Beijinhos, brigadeiros, cupcakes, tortas</mat-card-subtitle>                
+              </mat-card>
+              <mat-card class="card items mat-elevation-z8" routerLink="tabelaPrecoBolos">
+                <mat-card-title>BOLOS</mat-card-title>
+                <mat-card-subtitle class="items">Bolos de festas, bolos salgados, bolos de frutas</mat-card-subtitle>                
+              </mat-card>
+        </div>        
+      </mat-card>
+      <router-outlet></router-outlet>
+      
+

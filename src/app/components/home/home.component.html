@@ -30,11 +30,13 @@
                   *ngIf="isHandset$ | async">
                   <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
                 </button>
-                <span class="titloHeader">Tânia Gama</span>
+                <span>Tânia Gama</span>
               </mat-toolbar>
-              <router-outlet></router-outlet>
+              <router-outlet></router-outlet>              
             </mat-sidenav-content>
-          </mat-sidenav-container>        
+            <app-footer></app-footer> 
+          </mat-sidenav-container>               
     </header> 
+    <app-footer></app-footer> 
   </body>
 </html>
