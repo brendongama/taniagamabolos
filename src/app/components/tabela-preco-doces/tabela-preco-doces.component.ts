@@ -7,6 +7,7 @@ import { CapcakeComponent } from '../doces/capcake/capcake.component';
 import { BrigadeiroColherComponent } from '../doces/brigadeiro-colher/brigadeiro-colher.component';
 import { DiversosComponent } from '../doces/diversos/diversos.component';
 import { BrigadeiroCopoComponent } from '../doces/brigadeiro-copo/brigadeiro-copo.component';
+import { TortasComponent } from '../doces/tortas/tortas.component';
 
 @Component({
   selector: 'app-tabela-preco-doces',
@@ -43,6 +44,11 @@ export class TabelaPrecoDocesComponent implements OnInit {
   openModalBrigadeiroCopo() {
     const dialogRef = this.dialog.open(BrigadeiroCopoComponent);
   }
+
+  openModalTortas() {
+    const dialogRef = this.dialog.open(TortasComponent);
+  }
+
   ngOnInit(): void {
   }
 

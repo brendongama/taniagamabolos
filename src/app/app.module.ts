@@ -27,6 +27,7 @@ import { BeijinhoFrutaComponent } from './components/doces/beijinho-fruta/beijin
 import { DiversosComponent } from './components/doces/diversos/diversos.component';
 import { BrigadeiroCopoComponent } from './components/doces/brigadeiro-copo/brigadeiro-copo.component';
 import { BoloKitkatComponent } from './components/bolos/bolo-kitkat/bolo-kitkat.component';
+import { TortasComponent } from './components/doces/tortas/tortas.component';
 @NgModule({
   declarations: [ 
     AppComponent,
@@ -40,7 +41,7 @@ import { BoloKitkatComponent } from './components/bolos/bolo-kitkat/bolo-kitkat.
     DocinhosLuxoComponent,
     CapcakeComponent, 
     BrigadeiroColherComponent, 
-    BeijinhoFrutaComponent, DiversosComponent, BrigadeiroCopoComponent, BoloKitkatComponent
+    BeijinhoFrutaComponent, DiversosComponent, BrigadeiroCopoComponent, BoloKitkatComponent, TortasComponent
   ], 
   imports: [
     BrowserModule,
