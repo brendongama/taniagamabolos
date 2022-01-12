@@ -17,10 +17,16 @@ import {MatCardModule} from '@angular/material/card';
 import { TabelaPrecoDocesComponent } from './components/tabela-preco-doces/tabela-preco-doces.component';
 import { TabelaPrecoBolosComponent } from './components/tabela-preco-bolos/tabela-preco-bolos.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { DocinhosComponent } from './components/docinhos/docinhos.component';
+import { DocinhosComponent } from './components/doces/docinhos/docinhos.component';
 import {MatDialogModule} from '@angular/material/dialog';
-import { DocinhosLuxoComponent } from './components/docinhos-luxo/docinhos-luxo.component';
+import { DocinhosLuxoComponent } from './components/doces/docinhos-luxo/docinhos-luxo.component';
+import { CapcakeComponent } from './components/doces/capcake/capcake.component';
 
+import { BrigadeiroColherComponent } from './components/doces/brigadeiro-colher/brigadeiro-colher.component';
+import { BeijinhoFrutaComponent } from './components/doces/beijinho-fruta/beijinho-fruta.component';
+import { DiversosComponent } from './components/doces/diversos/diversos.component';
+import { BrigadeiroCopoComponent } from './components/doces/brigadeiro-copo/brigadeiro-copo.component';
+import { BoloKitkatComponent } from './components/bolos/bolo-kitkat/bolo-kitkat.component';
 @NgModule({
   declarations: [ 
     AppComponent,
@@ -31,14 +37,17 @@ import { DocinhosLuxoComponent } from './components/docinhos-luxo/docinhos-luxo.
     TabelaPrecoBolosComponent,
     FooterComponent,
     DocinhosComponent,
-    DocinhosLuxoComponent, 
-  ],
+    DocinhosLuxoComponent,
+    CapcakeComponent, 
+    BrigadeiroColherComponent, 
+    BeijinhoFrutaComponent, DiversosComponent, BrigadeiroCopoComponent, BoloKitkatComponent
+  ], 
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    LayoutModule,
-    MatToolbarModule,
+    LayoutModule,  
+    MatToolbarModule, 
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
