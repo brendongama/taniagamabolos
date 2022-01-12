@@ -17,6 +17,8 @@ import {MatCardModule} from '@angular/material/card';
 import { TabelaPrecoDocesComponent } from './components/tabela-preco-doces/tabela-preco-doces.component';
 import { TabelaPrecoBolosComponent } from './components/tabela-preco-bolos/tabela-preco-bolos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DocinhosComponent } from './components/docinhos/docinhos.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [ 
@@ -24,9 +26,10 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     TabelaprecoComponent,
     RedessociaisComponent,
-    TabelaPrecoDocesComponent,
+    TabelaPrecoDocesComponent,  
     TabelaPrecoBolosComponent,
-    FooterComponent
+    FooterComponent,
+    DocinhosComponent, 
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { FooterComponent } from './components/footer/footer.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

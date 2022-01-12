@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;    
+}
+
+img {
+    margin:2%;
+    width: 40%;
+}
+
+button {
+    width: 100%;
+}

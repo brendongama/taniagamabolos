@@ -6,19 +6,23 @@ import { RedessociaisComponent } from './components/redessociais/redessociais.co
 import { TabelaPrecoDocesComponent } from './components/tabela-preco-doces/tabela-preco-doces.component';
 import { TabelaPrecoBolosComponent } from './components/tabela-preco-bolos/tabela-preco-bolos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DocinhosComponent } from './components/docinhos/docinhos.component';
 
 const routes: Routes = [
   {
-    path: '', component: HomeComponent, children: [
+    path: '', component: HomeComponent, children: [      
       { path: 'tabelaPreco', component: TabelaprecoComponent, children: [
-        { path: 'tabelaPrecoDoces', component: TabelaPrecoDocesComponent },
-        { path: 'tabelaPrecoBolos', component: TabelaPrecoBolosComponent },
+        { path: 'tabelaPrecoDoces', component: TabelaPrecoDocesComponent, children: [
+          { path: 'docinhos', component: DocinhosComponent },
+        ] },
+        { path: 'tabelaPrecoBolos', component: TabelaPrecoBolosComponent, children: [
+          
+        ] },
+         
       ] },
       
       { path: 'redesSociais', component: RedessociaisComponent },
-      { path: 'footer', component: FooterComponent },
-      
-      
+      { path: 'footer', component: FooterComponent },           
     ]    
   }
 ];

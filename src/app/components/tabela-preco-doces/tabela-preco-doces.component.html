@@ -1,8 +1,9 @@
 
     <mat-card class="card">
         <mat-card-title>Lista de preços dos doces</mat-card-title> 
-        <div class="cardpreco">
-            <mat-card class="card mat-elevation-z8">
+        <div class="cardpreco" (click)="openDialog()">
+            <router-outlet></router-outlet>
+            <mat-card class="card mat-elevation-z8">                
                 <mat-card-title>DOCINHOS DE BOLINHAS SIMPLES</mat-card-title>
                 <mat-card-subtitle>100 unidades</mat-card-subtitle>
                 <div class="itens">
@@ -16,7 +17,7 @@
                         <p class="preco">R$ 70,00</p>                 
                     </mat-card-content>
                 </div>
-              </mat-card>
+              </mat-card> 
               <mat-card class="card card mat-elevation-z8">
                 <mat-card-title>DOCINHOS DE BOLINHAS LUXO</mat-card-title>
                 <mat-card-subtitle>100 unidades</mat-card-subtitle>
