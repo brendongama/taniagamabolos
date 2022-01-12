@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DocinhosComponent } from '../docinhos/docinhos.component';
+import { DocinhosLuxoComponent } from '../docinhos-luxo/docinhos-luxo.component';
 
 @Component({
   selector: 'app-tabela-preco-doces',
@@ -11,13 +12,13 @@ export class TabelaPrecoDocesComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }
 
-  openDialog() {
-    const dialogRef = this.dialog.open(DocinhosComponent);
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
+  openModalDocesSimples() { 
+    const dialogRef = this.dialog.open(DocinhosComponent);    
   }
+  openModalDocesLuxo(){
+    const dialogRef = this.dialog.open(DocinhosLuxoComponent); 
+  }
+
   ngOnInit(): void {
   }
 

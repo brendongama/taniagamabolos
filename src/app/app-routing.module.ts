@@ -12,9 +12,7 @@ const routes: Routes = [
   {
     path: '', component: HomeComponent, children: [      
       { path: 'tabelaPreco', component: TabelaprecoComponent, children: [
-        { path: 'tabelaPrecoDoces', component: TabelaPrecoDocesComponent, children: [
-          { path: 'docinhos', component: DocinhosComponent },
-        ] },
+        { path: 'tabelaPrecoDoces', component: TabelaPrecoDocesComponent},
         { path: 'tabelaPrecoBolos', component: TabelaPrecoBolosComponent, children: [
           
         ] },

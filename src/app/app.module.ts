@@ -19,6 +19,7 @@ import { TabelaPrecoBolosComponent } from './components/tabela-preco-bolos/tabel
 import { FooterComponent } from './components/footer/footer.component';
 import { DocinhosComponent } from './components/docinhos/docinhos.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { DocinhosLuxoComponent } from './components/docinhos-luxo/docinhos-luxo.component';
 
 @NgModule({
   declarations: [ 
@@ -29,7 +30,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     TabelaPrecoDocesComponent,  
     TabelaPrecoBolosComponent,
     FooterComponent,
-    DocinhosComponent, 
+    DocinhosComponent,
+    DocinhosLuxoComponent, 
   ],
   imports: [
     BrowserModule,
