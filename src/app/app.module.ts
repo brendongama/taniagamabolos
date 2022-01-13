@@ -26,7 +26,7 @@ import { BrigadeiroColherComponent } from './components/doces/brigadeiro-colher/
 import { BeijinhoFrutaComponent } from './components/doces/beijinho-fruta/beijinho-fruta.component';
 import { DiversosComponent } from './components/doces/diversos/diversos.component';
 import { BrigadeiroCopoComponent } from './components/doces/brigadeiro-copo/brigadeiro-copo.component';
-import { BoloKitkatComponent } from './components/bolos/bolo-kitkat/bolo-kitkat.component';
+import { BolosComponent } from './components/bolos/bolos/bolos.component';
 import { TortasComponent } from './components/doces/tortas/tortas.component';
 @NgModule({
   declarations: [ 
@@ -37,11 +37,11 @@ import { TortasComponent } from './components/doces/tortas/tortas.component';
     TabelaPrecoDocesComponent,  
     TabelaPrecoBolosComponent,
     FooterComponent,
-    DocinhosComponent,
+    DocinhosComponent, 
     DocinhosLuxoComponent,
     CapcakeComponent, 
     BrigadeiroColherComponent, 
-    BeijinhoFrutaComponent, DiversosComponent, BrigadeiroCopoComponent, BoloKitkatComponent, TortasComponent
+    BeijinhoFrutaComponent, DiversosComponent, BrigadeiroCopoComponent, BolosComponent, TortasComponent
   ], 
   imports: [
     BrowserModule,
