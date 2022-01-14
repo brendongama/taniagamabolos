@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-capcake',
   templateUrl: './capcake.component.html',
-  styleUrls: ['./capcake.component.css']
+  styleUrls: ['../../../css/styles.css']
 })
 export class CapcakeComponent implements OnInit {
 

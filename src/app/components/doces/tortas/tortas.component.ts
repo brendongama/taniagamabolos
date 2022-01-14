@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-tortas',
   templateUrl: './tortas.component.html',
-  styleUrls: ['./tortas.component.css']
+  styleUrls: ['../../../css/styles.css']
 })
 export class TortasComponent implements OnInit {
 
