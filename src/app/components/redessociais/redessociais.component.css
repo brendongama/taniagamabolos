@@ -3,9 +3,13 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    margin: 20%;
+    flex-direction: row;
 }
 
 img {
     height: 90px;
+}
+
+.mat-card-title {
+    font-size: 15px;
 }
