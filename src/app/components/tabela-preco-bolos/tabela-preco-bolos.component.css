@@ -18,19 +18,74 @@
     align-items: center; 
 }
 
-.nomeitem {
-    font-family: 'Righteous', cursive;
-    margin-right: 10px;
+@media only screen and (max-width: 1240px) {
+    .nomeitem {
+        font-family: 'Righteous', cursive;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    .preco {
+        font-family: 'Righteous', cursive;
+        font-size: 15px;
+        white-space: nowrap;
+        border-bottom: 0.4px solid black;
+    }
+    p {
+        border-bottom: 0.4px solid black;
+    }
 }
 
-.preco {
-    font-family: 'Righteous', cursive;
-    font-size: 20px;
-    white-space: nowrap;
-    border-bottom: 0.4px solid black;
+@media only screen and (max-width: 360px) {
+    .preco {
+        font-family: 'Righteous', cursive;
+        font-size: 15px;
+        white-space: nowrap;
+        border-bottom: 0.4px solid black;
+    }
+    p {
+        border-bottom: 0.4px solid black;
+    }
+
+    .nomeitem {
+        font-family: 'Righteous', cursive;
+        margin-right: 10px;
+        font-size: 13px;
+    }
 }
-p {
-    border-bottom: 0.4px solid black;
+
+@media only screen and (max-width: 345px) {
+    .nomeitem {
+        font-family: 'Righteous', cursive;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .preco {
+        font-family: 'Righteous', cursive;
+        font-size: 10px;
+        white-space: nowrap;
+        border-bottom: 0.4px solid black;
+    }
+    p {
+        border-bottom: 0.4px solid black;
+    }
+}
+
+@media only screen and (max-width: 245px) {
+    .nomeitem {
+        font-family: 'Righteous', cursive;
+        margin-right: 10px;
+        font-size: 7px;
+    }
+    .preco {
+        font-family: 'Righteous', cursive;
+        font-size: 7px;
+        white-space: nowrap;
+        border-bottom: 0.4px solid black;
+    }
+    p {
+        border-bottom: 0.4px solid black;
+    }
 }
 
 .textoAtencao {
