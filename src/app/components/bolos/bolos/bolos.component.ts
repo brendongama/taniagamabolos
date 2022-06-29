@@ -11,5 +11,5 @@ export class BolosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
 }
