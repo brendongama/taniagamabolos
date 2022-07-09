@@ -18,7 +18,7 @@
     align-items: center; 
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 3000px) {
     .nomeitem {
         font-family: 'Righteous', cursive;
         margin-right: 10px;
@@ -36,10 +36,10 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 405px) {
     .preco {
         font-family: 'Righteous', cursive;
-        font-size: 15px;
+        font-size: 12px;
         white-space: nowrap;
         border-bottom: 0.4px solid black;
     }
@@ -54,7 +54,7 @@
     }
 }
 
-@media only screen and (max-width: 345px) {
+@media only screen and (max-width: 346px) {
     .nomeitem {
         font-family: 'Righteous', cursive;
         margin-right: 10px;
@@ -71,7 +71,7 @@
     }
 }
 
-@media only screen and (max-width: 245px) {
+@media only screen and (max-width: 275px) {
     .nomeitem {
         font-family: 'Righteous', cursive;
         margin-right: 10px;
